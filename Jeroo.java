@@ -13,7 +13,22 @@ public class Jeroo extends JerooBase {
     }
     
     // Put any helpermethods here.  Be sure to comment the helper methods using /** */
-    
+public void stairPick()
+{
+  this.turn(LEFT);
+  this.hop();
+  this.turn(RIGHT);
+  this.hop();
+  this.pick();
+}
+
+public void climbStairs()
+{
+  this.stairpick();
+  this.stairpick();
+  this.stairpick();
+  this.stairpick();
+}
     
     
     
